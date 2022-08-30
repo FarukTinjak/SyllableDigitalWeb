@@ -12,6 +12,7 @@ body {
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
+     margin-top: 98px;
 }
 
 a {
@@ -328,6 +329,10 @@ button {
      line-height: 40px;
 }
 
+.logo img{
+  width: 228px;
+  max-width: 228px;
+}
 
 /** banner section **/
 
@@ -542,8 +547,7 @@ button {
 /** clients section **/
 
 .clients {
-     margin-top: 40px;
-     padding-top: 60px;
+     padding-top: 100px;
 }
 
 .clients .titlepage h2 {
