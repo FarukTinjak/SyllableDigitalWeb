@@ -9,7 +9,6 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { ClientsComponent } from './clients/clients.component';
-
 @NgModule({
   declarations: [
     HomeComponent,
