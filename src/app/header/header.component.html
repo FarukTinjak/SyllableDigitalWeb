@@ -8,7 +8,7 @@
           <div class="full">
             <div class="center-desk">
               <div class="logo">
-                <a href="#home"><img src="/assets/images/logo.png" alt="" /></a>
+                <a pageScroll [pageScrollDuration]="500" routerLink="/" href="#home"><img src="/assets/images/logo.png" alt="" /></a>
               </div>
             </div>
           </div>
@@ -22,16 +22,16 @@
               <div class="collapse navbar-collapse" id="navbarsExample04">
                 <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#about"> About Us  </a>
+                    <a class="nav-link" pageScroll [pageScrollDuration]="500" routerLink="/" href="#mobile"> Services </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#clients">Our Clients</a>
+                    <a class="nav-link" pageScroll [pageScrollDuration]="500"  routerLink="/" href="#clients">Our Clients</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#mobile">Our Work</a>
+                    <a class="nav-link" pageScroll [pageScrollDuration]="500" routerLink="/" href="#contact">Contact Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact Us</a>
+                    <a class="nav-link"  routerLink="/blog" href="#">Blog</a>
                   </li>
                 </ul>
                 <div class="sign_btn"><a href="#">Get A Quote</a></div>
