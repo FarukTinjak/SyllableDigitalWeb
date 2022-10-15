@@ -13,12 +13,16 @@ import {RouterModule, Routes} from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import {NgxPageScrollModule} from "ngx-page-scroll";
 import { PostComponent } from './post/post.component';
+import axios from "axios";
 
 const routes: Routes = [
   {path: 'blog', component: BlogComponent},
   {path: '', component: HomeComponent, pathMatch:"full"},
-  {path: 'blog/post/:id', component:PostComponent}
+  {path: 'blog/post/:id/:slug', component:PostComponent}
 ];
+
+const backend_base = 'http://syllable-backend.local';
+axios.defaults.baseURL = backend_base + '/api';
 
 @NgModule({
   declarations: [
