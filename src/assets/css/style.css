@@ -250,16 +250,18 @@ button {
      text-transform: uppercase;
 }
 
+/*
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #000;
+     color: #00aeef;
 }
+*/
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #000;
+     color: #00aeef;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -267,7 +269,7 @@ button {
 }
 
 .header_information {
-     background-color: #00aeef;
+     background-color: #051765;
      padding: 0 0;
      padding-top: 0px;
      padding-top: 0px;
@@ -321,6 +323,14 @@ button {
      padding: 20px 0px;
 }
 
+header{
+  transition: opacity linear 0.3s;
+
+}
+header:hover{
+  opacity: 1 !important;
+}
+
 .logo a {
      font-size: 40px;
      font-weight: bold;
@@ -349,7 +359,7 @@ button {
 }
 
 .carousel-indicators .active {
-     background: #00aeef;
+     background: #051765;
 }
 
 .carousel-indicators li {
@@ -390,7 +400,7 @@ button {
 
 .carousel-caption a {
      font-size: 17px;
-     background-color: #00aeef;
+     background-color: #051765;
      color: #fff;
      font-weight: 500;
      padding: 13px 0px;
@@ -426,7 +436,7 @@ button {
 }
 
 .titlepage span {
-     background: #00a8e7;
+     background: #051765;
      display: block;
      height: 10px;
      width: 90px;
@@ -448,7 +458,7 @@ button {
      text-align: center;
      display: inline-block;
      border-radius: 30px;
-     border: #00aaea solid 3px;
+     border: #051765 solid 3px;
      transition: ease-in all 0.5s;
 }
 
@@ -457,7 +467,7 @@ button {
 }
 
 .read_more:hover {
-     background: #00aaea;
+     background: #051765;
      color: #fff !important;
      transition: ease-in all 0.5s;
 }
@@ -606,7 +616,7 @@ button {
 /** contact section **/
 
 .contact {
-     background: #042431;
+     background: rgb(5,23,101);
      margin-top: 90px;
      padding: 90px 0;
 }
@@ -633,7 +643,7 @@ button {
      background-color: transparent;
      text-transform: uppercase;
      font-weight: 500;
-     border: #00aeef solid 3px;
+     border: #ffffff solid 3px;
      color: #f9fcfd;
      padding: 8px 0px;
      margin: 0 auto;
@@ -645,7 +655,7 @@ button {
 }
 
 .main_form .send_btn:hover {
-     background-color: #00aeef;
+     background-color: #06032a;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -662,7 +672,7 @@ button {
 /** footer **/
 
 .footer {
-     background: #042431;
+     background: rgb(5,23,101);
      text-align: center;
 }
 
@@ -703,8 +713,8 @@ button {
      background-color: transparent;
      text-transform: uppercase;
      font-weight: 500;
-     border: #00aeef solid 3px;
-     color: #4d636c;
+     border: #ffffff solid 3px;
+     color: #ffffff;
      padding: 5px 0px;
      margin-bottom: 5px;
      max-width: 150px;
@@ -714,7 +724,7 @@ button {
 }
 
 .submit:hover {
-     background-color: #00aeef;
+     background-color: #06032a;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -729,11 +739,11 @@ ul.cont li {
 .copyright {
      margin-top: 90px;
      padding: 20px 0px;
-     background-color: #00aeef;
+     background-color: #06032a;
 }
 
 .copyright p {
-     color: #fff;
+     color:  #fff;
      font-size: 18px;
      font-weight: 300;
      line-height: 22px;
@@ -741,11 +751,11 @@ ul.cont li {
 }
 
 .copyright a {
-     color: #fff;
+     color:  #FFFFFF;
 }
 
 .copyright a:hover {
-     color: #000;
+     color: #ffffff;
 }
 
 
