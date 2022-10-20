@@ -739,7 +739,7 @@ ul.cont li {
 .copyright {
      margin-top: 90px;
      padding: 20px 0px;
-     background-color: #06032a;
+     background-color: rgb(52,91,124);
 }
 
 .copyright p {
@@ -755,7 +755,7 @@ ul.cont li {
 }
 
 .copyright a:hover {
-     color: #ffffff;
+     color: #06032a;
 }
 
 
