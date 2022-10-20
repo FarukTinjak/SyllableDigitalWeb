@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import {NgxPageScrollModule} from "ngx-page-scroll";
 import { PostComponent } from './post/post.component';
 import axios from "axios";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 const routes: Routes = [
   {path: 'blog', component: BlogComponent},
@@ -34,7 +35,9 @@ axios.defaults.baseURL = backend_base + '/api';
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes,{scrollPositionRestoration: 'enabled'}),
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [
   ],
