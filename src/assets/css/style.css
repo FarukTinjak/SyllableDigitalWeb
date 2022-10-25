@@ -350,7 +350,7 @@ header:hover{
 
 .relative {
      position: absolute;
-     top: 56%;
+     top: 46%;
      transform: translateY(-44%);
      padding: 0;
      bottom: auto;
@@ -365,8 +365,8 @@ header:hover{
 }
 
 .carousel-indicators li {
-     width: 20px;
-     height: 20px;
+     width: 25px;
+     height: 25px;
      background: #fafcfd;
      border-radius: 20px;
 }
