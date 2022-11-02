@@ -4,7 +4,7 @@
   <div class="header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 d-none d-sm-block  col logo_section">
           <div class="full">
             <div class="center-desk">
               <div class="logo">
@@ -14,7 +14,11 @@
           </div>
         </div>
         <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+
           <div class="header_information">
+
+
+
             <nav class="navigation navbar navbar-expand-md navbar-dark">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,6 +43,14 @@
                 </div>
               </div>
             </nav>
+
+            <div class="d-sm-none d-lg-none d-md-none d-xl-none" style=" z-index: 998; position: absolute; margin-left: 5%; height: 98px">
+
+              <a pageScroll [pageScrollDuration]="500" [pageScrollOffset]="98"  routerLink="/" href="#home"><img src="/assets/images/mobilelogo.png" alt="" style="max-height:100%"/></a>
+
+            </div>
+
+
           </div>
         </div>
       </div>
