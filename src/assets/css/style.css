@@ -930,3 +930,36 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: #fff;
   transition: ease-in all 0.5s;
 }
+.carousel-item{
+  height: calc(100vh - 98px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+@media (max-width: 767px) {
+  .carousel-item {
+    background-position: center center;
+  }
+  /*.carousel-1 {
+    background-position: 35% 300px !important;*!
+  }*/
+  .carousel-1 .carousel-caption {
+    top: 20% !important;
+    right: 30% !important;
+  }
+  .carousel-2 .carousel-caption {
+    top: 40% !important;
+    right: 30% !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .header_information::before {
+    display:none;
+  }
+  .navigation{
+    margin-top: 31px;
+  }
+}
